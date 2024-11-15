@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import { FormProvider } from "./FormContext";
-import FormBuilder from "./FormBuilder";
-import Responses from "./Responses";
+import App from './Apps';
+
 import { GoogleOAuthProvider } from "@react-oauth/google"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
